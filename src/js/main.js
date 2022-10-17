@@ -5,10 +5,10 @@ function createWindow ()
 {
     const window = new BrowserWindow 
     ({
-        width: 1920,
-        height: 1080,
+        width: 1280,
+        height: 720,
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,
         }
     })
     window.loadFile('src/index.html')
