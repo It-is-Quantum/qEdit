@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/It-is-Quantum/qEdit/issues"
   },
-  "homepage": "https://github.com/It-is-Quantum/qEdit#readme"
+  "homepage": "https://github.com/It-is-Quantum/qEdit#readme",
+  "dependencies": {
+    "custom-electron-titlebar": "^4.1.1"
+  }
 }

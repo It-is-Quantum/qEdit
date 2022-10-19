@@ -1,5 +1,8 @@
 const electron = require('electron');
 const { app, BrowserWindow } = require('electron');
+const { setupTitlebar, attachTitlebarToWindow } = require('custom-electron-titlebar/main');
+
+setupTitlebar();
 
 function createWindow () 
 {
@@ -7,12 +10,17 @@ function createWindow ()
     ({
         width: 1280,
         height: 720,
+        titleBarStyle: 'hidden',
         webPreferences: {
             nodeIntegration: true,
+            preload: `${__dirname}/preload.js`
         }
     })
-    window.loadFile('src/index.html')
+    attachTitlebarToWindow(window);
+    window.loadFile('src/index.html');
 }
+
+
 
 app.whenReady().then(createWindow)
 
