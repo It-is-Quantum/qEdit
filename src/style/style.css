@@ -19,4 +19,5 @@ body
     outline: none;
     font-family: Ubuntu Mono;
     font-size: 13px;
+    position: fixed;
 }
