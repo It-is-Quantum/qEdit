@@ -3,7 +3,7 @@ What is qEdit?
 
 qEdit is a versatile and customizable text editor that is completely free and open source. It is built on the popular Electron framework, which means it can run on all major operating systems, including Windows, macOS, and Linux.
 
-With qEdit, you can edit plain text files, source code, and more. It supports syntax highlighting for a wide range of programming languages, including Python, JavaScript, HTML, CSS, and more. You can also customize the editor to your liking by changing its colors, fonts, and other settings.
+With qEdit, you can edit plain text files, source code, and more. It supports syntax highlighting for a wide range of programming languages, including JavaScript, HTML, CSS, and more. You can also customize the editor to your liking by changing its colors, fonts, and other settings.
 
 Community and Contributing
 ------
